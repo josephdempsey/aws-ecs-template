@@ -1,0 +1,12 @@
+{
+     "Statement": [
+         {
+             "Effect": "Allow",
+             "Principal": {
+                 "AWS": "arn:aws:iam::698605561725:user/infrastructure-pipeline"
+             },
+             "Action": "s3:*",
+             "Resource": "arn:aws:s3:::tf-loyalty-state-store-staging"
+         }
+     ]
+ }
