@@ -1,5 +1,5 @@
 region         = "eu-west-1"
-name                = "loyalty"
+name                = "Name"
 environment         = "staging"
 cidr = "10.100.120.0/24"
 availability_zones  = ["eu-west-1a", "eu-west-1b"]
@@ -11,8 +11,8 @@ container_memory    = 2048
 container_cpu       = 1024
 container_port      = 80
 service_desired_count = 1
-dockerhub_username  = "jdloyaltyserviceteam"
-dockerhub_repository = "loyaltyserviceteam"
+dockerhub_username  = "docker-user"
+dockerhub_repository = "docker-repository"
 tags = {
   Terraform   = "true"
   Environment = "staging"
